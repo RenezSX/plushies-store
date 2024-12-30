@@ -60,7 +60,7 @@ A estrutura do diretório é organizada da seguinte forma:
 
 ## 👀 Demonstração
 
-<img src="./demonstração/Foto.png">
+<img src="./demonstração/Foto .png">
 <img src="./demonstração/Foto2.png">
 <img src="./demonstração/Foto3.png">
 <img src="./demonstração/Foto4.png">
