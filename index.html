@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/835a173eca.js" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelúcias</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="logo">
+            <img src="./assets/Logo.png" alt="Logo da loja">
+        </div>
+
+        <ul>
+            <li><a href="#disney">Disney</a></li>
+            <li><a href="#ursinhos">Ursinhos</a></li>
+            <li><a href="#mini-pelucias">Mini Pelúcias</a></li>
+            <li><a href="#sanrio">Sanrio</a></li>
+        </ul>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar">
+        </div>
+        <div class="search-icon"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></div>
+
+        <div class="cadastro-btn">Entrar</div>
+    </nav>
+    </header>
+    <main>
+        <h2>Nossas pelúcias mais procuradas!</h2>
+
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-item">
+                    <img src="assets/Carrosel/stitch-plush.png" alt="Produto 1">
+                    <h3>Pelúcia Stitch Disney</h3>
+                    <p>R$ 119,99 </p>
+                    <button>Comprar</button>
+                </div>
+
+                    <div class="carousel-item">
+                        <img src="assets/Carrosel/bear-plush.png" alt="Produto 2">
+                        <h3>Ursinho de Pelúcia</h3>
+                        <p>R$ 59,99</p>
+                        <button>Comprar</button>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="assets/Carrosel/galinha-pintadinha-plush.png" alt="Produto 3">
+                        <h3>Mini Galinha Pintadinha</h3>
+                        <p>R$ 39,99</p>
+                        <button>Comprar</button>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="assets/Carrosel/Sanrio-plush.png" alt="Produto 4">
+                        <h3>Kuromi Hora de Dormir</h3>
+                        <p>R$ 149,99</p>
+                        <button>Comprar</button>
+                    </div>
+        </div>
+        <div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </main>
+
+        <section class="catalog">
+            <div id="disney" class="product-item">
+                <img src="assets/Catálogo/marie (2).png" alt="Marie">
+                <h3>Pelúcia Marie</h3>
+                <p class="price">R$ 119,99</p>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product-item-1">
+                <img src="assets/Catálogo/mike-and-sulivan.png" alt="Monsters SA">
+                <a href=""></a>
+                <h3>Mike e Sulivan 2 em 1</h3>
+                <p class="price">R$ 199,99</p>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product-item-2">
+                <img src="assets/Catálogo/remy.png" alt="Rattatouile">
+                <h3>Pelúcia Remy</h3>
+                <p class="price">R$ 119,99</p>
+                <button>Comprar</button>
+            </div>
+
+            <div id="ursinhos" class="product-item">
+                <img src="assets/Catálogo/pardo.png" alt="Ursinho marrom">
+                <h3>Urso de Pelúcia Marrom</h3>
+                <p class="price">R$ 59,99</p>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product-item">
+                <img src="assets/Catálogo/panda.png" alt="Ursinho preto e branco">
+                <h3>Urso de Pelúcia Panda</h3>
+                <p class="price">R$ 59,99</p>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product-item-3">
+                <img src="assets/Catálogo/polar.png" alt="Ursinho Branco">
+                <h3>Urso de Pelúcia Branco</h3>
+                <p class="price">R$ 59,99</p>
+                <button>Comprar</button>
+            </div>
+
+            <div id="mini-pelucias" class="product-item-3">
+                <img src="assets/Catálogo/mini-pooh.png" alt="Ursinho Pooh">
+                <h3>Mini Pelúcia Ursinho Pooh</h3>
+                <p class="price">R$ 39,99</p>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product-item-3">
+                <img src="assets/Catálogo/mini-donald.png" alt="Pato Donald">
+                <h3>Mini Pelúcia Pato Donald</h3>
+                <p class="price">R$ 39,99</p>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product-item-3">
+                <img src="assets/Catálogo/mini-io.png" alt="Ío">
+                <h3>Mini Pelúcia Ío</h3>
+                <p class="price">R$ 39,99</p>
+                <button>Comprar</button>
+            </div>
+
+            <div id="sanrio" class="product-item-3">
+                <img src="assets/Catálogo/cinnamoroll.png" alt="Cinnamoroll">
+                <h3>Pelúcia Cinnamoroll</h3>
+                <p class="price">R$ 79,99</p>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product-item-3">
+                <img src="assets/Catálogo/hello-kitty.png" alt="Hello Kitty">
+                <h3>Pelúcia Hello kitty</h3>
+                <p class="price">R$ 79,99</p>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product-item-3">
+                <img src="assets/Catálogo/my-melody.png" alt="My Melody">
+                <h3>Pelúcia My Melody</h3>
+                <p class="price">R$ 79,99</p>
+                <button>Comprar</button>
+            </div>
+    <script src="script.js"></script>
+</body>
+</html>
