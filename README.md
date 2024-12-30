@@ -70,7 +70,6 @@ A estrutura do diretório é organizada da seguinte forma:
 
 - **Carrossel de Produtos**: A seção do carrossel exibe os produtos mais procurados, permitindo a navegação usando botões de "próximo" e "anterior". O código JavaScript controla o movimento do carrossel.
 - **Catálogo de Produtos**: Apresenta diferentes categorias de produtos, como Disney, Ursinhos, Mini Pelúcias e Sanrio, com uma interface de compra simples.
-- **Responsividade**: O design se adapta automaticamente ao tamanho da tela, proporcionando uma boa experiência de usuário em desktops, tablets e dispositivos móveis.
 - **Interatividade**: Botões de compra e navegação tornam a experiência do usuário mais dinâmica e intuitiva.
 
 ---
