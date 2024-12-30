@@ -58,6 +58,14 @@ A estrutura do diretório é organizada da seguinte forma:
 
 ---
 
+## 👀 Demonstração
+
+<img src="./demonstração/Foto.png">
+<img src="./demonstração/Foto2.png">
+<img src="./demonstração/Foto3.png">
+<img src="./demonstração/Foto4.png">
+<img src="./demonstração/Foto5.png">
+
 ## 💡 Funcionalidades e Design
 
 - **Carrossel de Produtos**: A seção do carrossel exibe os produtos mais procurados, permitindo a navegação usando botões de "próximo" e "anterior". O código JavaScript controla o movimento do carrossel.
